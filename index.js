@@ -1,5 +1,4 @@
 const express = require('express');
-const cfg = require('./config.json')
 
 const exphbs = require('express-handlebars');
 const PORT = cfg.PORT || 3000
