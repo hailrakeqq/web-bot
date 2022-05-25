@@ -1,0 +1,1614 @@
+<br />
+<h1>Команды</h1>
+<br />
+
+<div class="main">
+    <div class="row">
+        <h5>Всего команд: 43 | стандартный префикс <b>!</b></h6>
+    </div>
+    <div class="column w3-padding-16">
+        <label>Поиск по командам</label>
+        <select id="selectMe" class="browser-default form-control">
+            <option value="" disabled selected>Выбрать категорию команд..</option>
+            <option value="allCmd" selected>Все команды</option>
+            <option value="music">Музыка</option>
+            <option <option value="animal">Животные</option>
+            <option value="interaction">Взаимодействия</option>
+            <option value="admin">Администрация</option>
+            <option value="moderation">Модерация</option>
+            <option value="mainCmd">Основные</option>
+        </select>
+
+        <div id="allCmd" class="group">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell1" aria-expanded="false" aria-controls="flush-collapsell1">
+                            avatar - Посмотреть аватар пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell1" class="accordion-collapse collapse" aria-labelledby="flush-headingll1"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>avatar</b> - Аватарка пользователя который отправил команду</p>
+                            <p><b>avatar &lt;@user&gt;</b> - Аватарка определённого пользователя</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell2" aria-expanded="false" aria-controls="flush-collapsell2">
+                            ban - Бан пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell2" class="accordion-collapse collapse" aria-labelledby="flush-headingll2"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>ban &lt;@user&gt; &lt;причина&gt;</b></p>
+                            <br />
+                            <p><b>Пример:</b></p>
+                            <p>ban @qwexc_ test - Пользователя qwexc_#5948 забанили, причина: test </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell3" aria-expanded="false" aria-controls="flush-collapsell3">
+                            bite - Укусить пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell3" class="accordion-collapse collapse" aria-labelledby="flush-headingll3"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>bite &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell4" aria-expanded="false" aria-controls="flush-collapsell4">
+                            blush - Покраснеть
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell4" class="accordion-collapse collapse" aria-labelledby="flush-headingll4"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>blush</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell5" aria-expanded="false" aria-controls="flush-collapsell5">
+                            cats - Рандомные котики
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell5" class="accordion-collapse collapse" aria-labelledby="flush-headingll5"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>cats</b>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell6" aria-expanded="false" aria-controls="flush-collapsell6">
+                            clear - Очистить сообщения в чате
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell6" class="accordion-collapse collapse" aria-labelledby="flush-headingll6"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>clear [сколько сообщений удалить]</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll7">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell7" aria-expanded="false" aria-controls="flush-collapsell7">
+                            cry - Плакать
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell7" class="accordion-collapse collapse" aria-labelledby="flush-headingll7"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>cry</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll8">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell8" aria-expanded="false" aria-controls="flush-collapsell8">
+                            cuddle - Прижаться к пользователю
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell8" class="accordion-collapse collapse" aria-labelledby="flush-headingll8"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>cuddle &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell9" aria-expanded="false" aria-controls="flush-collapsell9">
+                            dance - Танцевать
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell9" class="accordion-collapse collapse" aria-labelledby="flush-headingll9"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>dance</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll10">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell10" aria-expanded="false"
+                            aria-controls="flush-collapsell10">
+                            dogs - Рандомные собачки
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell10" class="accordion-collapse collapse" aria-labelledby="flush-headingll10"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>dogs</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll11">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell11" aria-expanded="false"
+                            aria-controls="flush-collapsell11">
+                            fox - Рандомные лисички
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell11" class="accordion-collapse collapse" aria-labelledby="flush-headingll11"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>fox</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll12">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell12" aria-expanded="false"
+                            aria-controls="flush-collapsell12">
+                            happy - Радоваться
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell12" class="accordion-collapse collapse" aria-labelledby="flush-headingll12"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>happy</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll13">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell13" aria-expanded="false"
+                            aria-controls="flush-collapsell13">
+                            help - Помощь по командам
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell13" class="accordion-collapse collapse" aria-labelledby="flush-headingll13"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>help [command]</b> - для просмотра помощи по команде</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll14">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell14" aria-expanded="false"
+                            aria-controls="flush-collapsell14">
+                            hit - Ударить пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell14" class="accordion-collapse collapse" aria-labelledby="flush-headingll14"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>hit &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll15">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell15" aria-expanded="false"
+                            aria-controls="flush-collapsell15">
+                            hug - Обнять пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell15" class="accordion-collapse collapse" aria-labelledby="flush-headingll15"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>hug &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll16">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell16" aria-expanded="false"
+                            aria-controls="flush-collapsell16">
+                            jump - Включить музыку по списком в очереди
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell16" class="accordion-collapse collapse" aria-labelledby="flush-headingll16"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>jump</b> &lt;номер в очереди&gt; </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll17">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell17" aria-expanded="false"
+                            aria-controls="flush-collapsell17">
+                            kick - Выгнать пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell17" class="accordion-collapse collapse" aria-labelledby="flush-headingll17"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>kick &lt;@user&gt; &lt;причина&gt;</b></p>
+                            <br />
+                            <p><b>Пример:</b></p>
+                            <p><b>kick @qwexc_ test</b> - Пользователя qwexc_#5948 выгнали, причина: test </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll18">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell18" aria-expanded="false"
+                            aria-controls="flush-collapsell18">
+                            kill - Убить пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell18" class="accordion-collapse collapse" aria-labelledby="flush-headingll18"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>kill &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll19">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell19" aria-expanded="false"
+                            aria-controls="flush-collapsell19">
+                            kiss - Поцеловать пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell19" class="accordion-collapse collapse" aria-labelledby="flush-headingll19"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>kiss &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll20">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell20" aria-expanded="false"
+                            aria-controls="flush-collapsell20">
+                            leave - Отключить бота от голосового канала
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell20" class="accordion-collapse collapse" aria-labelledby="flush-headingll20"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>leave</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll21">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell21" aria-expanded="false"
+                            aria-controls="flush-collapsell21">
+                            lick - Облизать пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell21" class="accordion-collapse collapse" aria-labelledby="flush-headingll21"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>lick &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll22">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell22" aria-expanded="false"
+                            aria-controls="flush-collapsell22">
+                            <b>modroles</b> - Управление ролями модерации
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell22" class="accordion-collapse collapse" aria-labelledby="flush-headingll22"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>modroles</b> add/remove &lt;@role&gt; - для того что бы добавить/удалить
+                                модеративную
+                                роль</p>
+                            <p><b>modroles</b> - для вывода модерационных ролей</p>
+                            <br />
+                            <p><b>Пример:</b></p>
+                            <p><b>modroles add &lt;@modrole&gt;</b> - роль modrole добавлена в список модерационных
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll23">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell23" aria-expanded="false"
+                            aria-controls="flush-collapsell23">
+                            mute - Временное наказание пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell23" class="accordion-collapse collapse" aria-labelledby="flush-headingll23"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>mute &lt;@user&gt; &lt;время&gt; &lt;причина&gt;</b></p>
+                            <br />
+                            <p><b>Пример:</b></p>
+                            <p><b>mute @qwexc_ 10 test</b> - Пользователя qwexc_#5948 замьютили на 10 мин, причина: test
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll24">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell24" aria-expanded="false"
+                            aria-controls="flush-collapsll24">
+                            panda - Рандомные пандочки
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell24" class="accordion-collapse collapse" aria-labelledby="flush-headingll24"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>panda</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll25">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell25" aria-expanded="false"
+                            aria-controls="flush-collapsell25">
+                            pat - Погладить пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell25" class="accordion-collapse collapse" aria-labelledby="flush-headingll25"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>pat &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll26">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell26" aria-expanded="false"
+                            aria-controls="flush-collapsell26">
+                            pause - Пауза музыки
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell26" class="accordion-collapse collapse" aria-labelledby="flush-headingll26"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>pause</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll27">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell27" aria-expanded="false"
+                            aria-controls="flush-collapsell27">
+                            ping - Узнать текущую задержку бота
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell27" class="accordion-collapse collapse" aria-labelledby="flush-headingll27"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>ping</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll28">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell28" aria-expanded="false"
+                            aria-controls="flush-collapsell28">
+                            play - Воспроизведение музыки из YouTube Spotify SoundCloud в голосовом канале
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell28" class="accordion-collapse collapse" aria-labelledby="flush-headingll28"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>play</b> &lt;url&gt; или текст </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll29">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell29" aria-expanded="false"
+                            aria-controls="flush-collapsell29">
+                            poke - Тыкнуть пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell29" class="accordion-collapse collapse" aria-labelledby="flush-headingll29"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>poke &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll43">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell43" aria-expanded="false"
+                            aria-controls="flush-collapsell43">
+                            queue - Получить названия всех песен, которые находятся в очереди
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell43" class="accordion-collapse collapse" aria-labelledby="flush-headingll43"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>queue</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll30">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell30" aria-expanded="false"
+                            aria-controls="flush-collapsell30">
+                            raccoon - Рандомные енотики
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell30" class="accordion-collapse collapse" aria-labelledby="flush-headingll30"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>raccoon</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll31">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell31" aria-expanded="false"
+                            aria-controls="flush-collapsell31">
+                            randanimal - Рандомные животные
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell31" class="accordion-collapse collapse" aria-labelledby="flush-headingll31"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>randanimal</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll32">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell32" aria-expanded="false"
+                            aria-controls="flush-collapsell32">
+                            repeat - Повтор музыки в голосовом канале
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell32" class="accordion-collapse collapse" aria-labelledby="flush-headingll32"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>repeat 0</b> - чтобы выключить режим повтора</p>
+                            <p><b>repeat 1</b>- чтобы установить на повтор 1 трек</p>
+                            <p><b>repeat 0</b> - чтобы установить на повтор все треки</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll33">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell33" aria-expanded="false"
+                            aria-controls="flush-collapsell33">
+                            resume - Возобновить музыку
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell33" class="accordion-collapse collapse" aria-labelledby="flush-headingll33"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>resume</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll34">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell34" aria-expanded="false"
+                            aria-controls="flush-collapsell34">
+                            sad - Грустить
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell34" class="accordion-collapse collapse" aria-labelledby="flush-headingll34"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>sad</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll35">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell35" aria-expanded="false"
+                            aria-controls="flush-collapsell35">
+                            <b>setprefix</b> - Cмена префикса
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell35" class="accordion-collapse collapse" aria-labelledby="flush-headingll35"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>setprefix</b> [prefix] </p>
+                            <br />
+                            <p><b>Пример:</b></p>
+                            <p>setprefix > - Префикс успешно изменен на > </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll36">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell36" aria-expanded="false"
+                            aria-controls="flush-collapsell36">
+                            skip - Пропустить песню
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell36" class="accordion-collapse collapse" aria-labelledby="flush-headingll36"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>skip</b> - Пропустить 1 песню</p>
+                            <p><b>skip all</b> - Пропустить все песни</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll37">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell37" aria-expanded="false"
+                            aria-controls="flush-collapsell37">
+                            smile - Улыбнуться
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell37" class="accordion-collapse collapse" aria-labelledby="flush-headingll37"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>smile</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll38">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell38" aria-expanded="false"
+                            aria-controls="flush-collapsell38">
+                            stop - Остановить музыку и очистить очередь
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell38" class="accordion-collapse collapse" aria-labelledby="flush-headingll38"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <b>stop</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll39">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell39" aria-expanded="false"
+                            aria-controls="flush-collapsell39">
+                            unmute - Досрочное снятие наказания пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell39" class="accordion-collapse collapse" aria-labelledby="flush-headingll39"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>unmute &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll40">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell40" aria-expanded="false"
+                            aria-controls="flush-collapsell40">
+                            userinfo - Посмотреть информации о пользователе
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell40" class="accordion-collapse collapse" aria-labelledby="flush-headingll40"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>userinfo</b> - Информация пользователя который отправил команду</p>
+                            <p><b>userinfo &lt;@user&gt;</b> - Информация определённого пользователя</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll41">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell41" aria-expanded="false"
+                            aria-controls="flush-collapsell41">
+                            wave - Приветствовать пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell41" class="accordion-collapse collapse" aria-labelledby="flush-headingll41"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>wave &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingll42">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsell42" aria-expanded="false"
+                            aria-controls="flush-collapsell42">
+                            wink - Подмигнуть пользователя
+                        </button>
+                    </h2>
+                    <div id="flush-collapsell42" class="accordion-collapse collapse" aria-labelledby="flush-headingll42"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p><b>Использование:</b></p>
+                            <p><b>wink &lt;@user&gt;</b></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="interaction" class="group">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei1" aria-expanded="false" aria-controls="flush-collapsei1">
+                        bite - Укусить пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei1" class="accordion-collapse collapse" aria-labelledby="flush-headingi1"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>bite &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei2" aria-expanded="false" aria-controls="flush-collapsei2">
+                        blush - Покраснеть
+                    </button>
+                </h2>
+                <div id="flush-collapsei2" class="accordion-collapse collapse" aria-labelledby="flush-headingi2"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>blush</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei3" aria-expanded="false" aria-controls="flush-collapsei3">
+                        cry - Плакать
+                    </button>
+                </h2>
+                <div id="flush-collapsei3" class="accordion-collapse collapse" aria-labelledby="flush-headingi3"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>cry</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei4" aria-expanded="false" aria-controls="flush-collapsei4">
+                        cuddle - Прижаться к пользователю
+                    </button>
+                </h2>
+                <div id="flush-collapsei4" class="accordion-collapse collapse" aria-labelledby="flush-headingi4"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>cuddle &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei5" aria-expanded="false" aria-controls="flush-collapsei5">
+                        dance - Танцевать
+                    </button>
+                </h2>
+                <div id="flush-collapsei5" class="accordion-collapse collapse" aria-labelledby="flush-headingi5"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>dance</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei6" aria-expanded="false" aria-controls="flush-collapsei6">
+                        happy - Радоваться
+                    </button>
+                </h2>
+                <div id="flush-collapsei6" class="accordion-collapse collapse" aria-labelledby="flush-headingi6"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>happy</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei7" aria-expanded="false" aria-controls="flush-collapsei7">
+                        hit - Ударить пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei7" class="accordion-collapse collapse" aria-labelledby="flush-headingi7"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>hit &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei8" aria-expanded="false" aria-controls="flush-collapsei8">
+                        hug - Обнять пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei8" class="accordion-collapse collapse" aria-labelledby="flush-headingi8"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>hug &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei9" aria-expanded="false" aria-controls="flush-collapsei9">
+                        kill - Убить пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei9" class="accordion-collapse collapse" aria-labelledby="flush-headingi9"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>kill &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi10">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei10" aria-expanded="false" aria-controls="flush-collapsei10">
+                        kiss - Поцеловать пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei10" class="accordion-collapse collapse" aria-labelledby="flush-headingi10"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>kiss &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi11">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei11" aria-expanded="false" aria-controls="flush-collapsei11">
+                        lick - Облизать пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei11" class="accordion-collapse collapse" aria-labelledby="flush-headingi11"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>lick &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi12">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei12" aria-expanded="false" aria-controls="flush-collapsei12">
+                        pat - Погладить пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei12" class="accordion-collapse collapse" aria-labelledby="flush-headingi12"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>pat &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi13">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei13" aria-expanded="false" aria-controls="flush-collapsei13">
+                        poke - Тыкнуть пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei13" class="accordion-collapse collapse" aria-labelledby="flush-headingi13"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>poke &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi14">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei14" aria-expanded="false" aria-controls="flush-collapsei14">
+                        sad - Грустить
+                    </button>
+                </h2>
+                <div id="flush-collapsei14" class="accordion-collapse collapse" aria-labelledby="flush-headingi14"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>sad</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi15">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei15" aria-expanded="false" aria-controls="flush-collapsei15">
+                        smile - Улыбнуться
+                    </button>
+                </h2>
+                <div id="flush-collapsei15" class="accordion-collapse collapse" aria-labelledby="flush-headingi15"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>smile</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi16">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei16" aria-expanded="false" aria-controls="flush-collapsei16">
+                        wave - Приветствовать пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei16" class="accordion-collapse collapse" aria-labelledby="flush-headingi16"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>wave &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingi17">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsei17" aria-expanded="false" aria-controls="flush-collapsei17">
+                        wink - Подмигнуть пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapsei17" class="accordion-collapse collapse" aria-labelledby="flush-headingi17"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>wink &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="music" class="group">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem1" aria-expanded="false" aria-controls="flush-collapsem1">
+                        play - Воспроизведение музыки из YouTube Spotify SoundCloud в голосовом канале
+                    </button>
+                </h2>
+                <div id="flush-collapsem1" class="accordion-collapse collapse" aria-labelledby="flush-headingm1"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>play</b>
+                            &lt;url&gt; или текст
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem2" aria-expanded="false" aria-controls="flush-collapsem2">
+                        queue - Получить названия всех песен, которые находятся в очереди
+                    </button>
+                </h2>
+                <div id="flush-collapsem2" class="accordion-collapse collapse" aria-labelledby="flush-headingm2"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>queue</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem3" aria-expanded="false" aria-controls="flush-collapsem3">
+                        repeat - Повтор музыки в голосовом канале
+                    </button>
+                </h2>
+                <div id="flush-collapsem3" class="accordion-collapse collapse" aria-labelledby="flush-headingm3"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>repeat 0</b> - чтобы выключить режим повтора</p>
+                        <p><b>repeat 1</b>- чтобы установить на повтор 1 трек</p>
+                        <p><b>repeat 0</b> - чтобы установить на повтор все треки</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem4" aria-expanded="false" aria-controls="flush-collapsem4">
+                        skip - Пропустить песню
+                    </button>
+                </h2>
+                <div id="flush-collapsem4" class="accordion-collapse collapse" aria-labelledby="flush-headingm4"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>skip</b> - Пропустить 1 песню</p>
+                        <p><b>skip all</b> - Пропустить все песни</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem5" aria-expanded="false" aria-controls="flush-collapsem5">
+                        jump - Включить музыку по списком в очереди
+                    </button>
+                </h2>
+                <div id="flush-collapsem5" class="accordion-collapse collapse" aria-labelledby="flush-headingm5"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>jump</b> &lt;номер в очереди&gt; </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem6" aria-expanded="false" aria-controls="flush-collapsem6">
+                        stop - Остановить музыку и очистить очередь
+                    </button>
+                </h2>
+                <div id="flush-collapsem6" class="accordion-collapse collapse" aria-labelledby="flush-headingm6"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>stop</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem7" aria-expanded="false" aria-controls="flush-collapsem7">
+                        pause - Пауза музыки
+                    </button>
+                </h2>
+                <div id="flush-collapsem7" class="accordion-collapse collapse" aria-labelledby="flush-headingm7"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>pause</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem8" aria-expanded="false" aria-controls="flush-collapsem8">
+                        resume - Возобновить музыку
+                    </button>
+                </h2>
+                <div id="flush-collapsem8" class="accordion-collapse collapse" aria-labelledby="flush-headingm8"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>resume</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingm9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsem9" aria-expanded="false" aria-controls="flush-collapsem9">
+                        leave - Отключить бота от голосового канала
+                    </button>
+                </h2>
+                <div id="flush-collapsem9" class="accordion-collapse collapse" aria-labelledby="flush-headingm9"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>leave</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="animal" class="group">
+
+        <div class="accordion" id="accordionFlushExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading01">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse01" aria-expanded="false" aria-controls="flush-collapse01">
+                        cats - Рандомные котики
+                    </button>
+                </h2>
+                <div id="flush-collapse01" class="accordion-collapse collapse" aria-labelledby="flush-heading01"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>cats</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading02">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse02" aria-expanded="false" aria-controls="flush-collapse02">
+                        dogs - Рандомные собачки
+                    </button>
+                </h2>
+                <div id="flush-collapse02" class="accordion-collapse collapse" aria-labelledby="flush-heading02"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>dogs</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading03">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse03" aria-expanded="false" aria-controls="flush-collapse03">
+                        fox - Рандомные лисички
+                    </button>
+                </h2>
+                <div id="flush-collapse03" class="accordion-collapse collapse" aria-labelledby="flush-heading03"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>fox</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading04">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse04" aria-expanded="false" aria-controls="flush-collaps04">
+                        panda - Рандомные пандочки
+                    </button>
+                </h2>
+                <div id="flush-collapse04" class="accordion-collapse collapse" aria-labelledby="flush-heading04"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>panda</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading05">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse05" aria-expanded="false" aria-controls="flush-collapse05">
+                        raccoon - Рандомные енотики
+                    </button>
+                </h2>
+                <div id="flush-collapse05" class="accordion-collapse collapse" aria-labelledby="flush-heading05"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>raccoon</b>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading06">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse06" aria-expanded="false" aria-controls="flush-collapse06">
+                        randanimal - Рандомные животные
+                    </button>
+                </h2>
+                <div id="flush-collapse06" class="accordion-collapse collapse" aria-labelledby="flush-heading06"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <b>randanimal</b>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="admin" class="group">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading01">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse01" aria-expanded="false" aria-controls="flush-collapse01">
+                        <b>modroles</b> - Управление ролями модерации
+                    </button>
+                </h2>
+                <div id="flush-collapse01" class="accordion-collapse collapse" aria-labelledby="flush-heading01"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>modroles</b> add/remove &lt;@role&gt; - для того что бы добавить/удалить
+                            модеративную
+                            роль</p>
+                        <p><b>modroles</b> - для вывода модерационных ролей</p>
+                        <br />
+                        <p><b>Пример:</b></p>
+                        <p><b>modroles add &lt;@modrole&gt;</b> - роль modrole добавлена в список модерационных
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <b>setprefix</b> - Cмена префикса
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>setprefix</b> [prefix] </p>
+                        <br />
+                        <p><b>Пример:</b></p>
+                        <p>setprefix > - Префикс успешно изменен на > </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="moderation" class="group">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                        ban - Бан пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>ban &lt;@user&gt; &lt;причина&gt;</b></p>
+                        <br />
+                        <p><b>Пример:</b></p>
+                        <p>ban @qwexc_ test - Пользователя qwexc_#5948 забанили, причина: test </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                        kick - Выгнать пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>kick &lt;@user&gt; &lt;причина&gt;</b></p>
+                        <br />
+                        <p><b>Пример:</b></p>
+                        <p><b>kick @qwexc_ test</b> - Пользователя qwexc_#5948 выгнали, причина: test </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                        mute - Временное наказание пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>mute &lt;@user&gt; &lt;время&gt; &lt;причина&gt;</b></p>
+                        <br />
+                        <p><b>Пример:</b></p>
+                        <p><b>mute @qwexc_ 10 test</b> - Пользователя qwexc_#5948 замьютили на 10 мин, причина: test
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                        unmute - Досрочное снятие наказания пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>unmute &lt;@user&gt;</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                        clear - Очистить сообщения в чате
+                    </button>
+                </h2>
+                <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>clear [сколько сообщений удалить]</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="mainCmd" class="group">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading11">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                        avatar - Посмотреть аватар пользователя
+                    </button>
+                </h2>
+                <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>avatar</b> - Аватарка пользователя который отправил команду</p>
+                        <p><b>avatar &lt;@user&gt;</b> - Аватарка определённого пользователя</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading12">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                        help - Помощь по командам
+                    </button>
+                </h2>
+                <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>help [command]</b> - для просмотра помощи по команде</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading13">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                        ping - Узнать текущую задержку бота
+                    </button>
+                </h2>
+                <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>ping</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading14">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                        userinfo - Посмотреть информации о пользователе
+                    </button>
+                </h2>
+                <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><b>Использование:</b></p>
+                        <p><b>userinfo</b> - Информация пользователя который отправил команду</p>
+                        <p><b>userinfo &lt;@user&gt;</b> - Информация определённого пользователя</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+{{!-- <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: purple;
+    }
+
+    html,
+
+    body {
+        height: 100%;
+    }
+
+    .wrapper {
+        /*display: flex;
+                    flex-direction: column;*/
+        height: 100%;
+    }
+
+    .content {
+        flex: 1 0 auto;
+        padding-bottom: 90px;
+        box-sizing: border-box;
+        min-height: 100%;
+    }
+
+    .footer {
+        flex: 1 0 auto;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+    }
+
+    .link:hover {
+        color: purple;
+    }
+</style> --}}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('.group').hide();
+        $('#allCmd').show();
+        $('#selectMe').change(function () {
+            $('.group').hide();
+            $('#' + $(this).val()).show();
+        })
+    });
+    function showHide(id) {
+        let x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    } 
+</script>
